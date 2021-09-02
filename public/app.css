@@ -1,0 +1,13 @@
+h1 {
+    background-color: transparent;
+    color: #222222;
+}
+article {
+    max-width: 600px;
+    margin: auto;
+}
+article + article {
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid grey;
+}
